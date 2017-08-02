@@ -1,6 +1,6 @@
 # module6_ht
 
-Preconditions: Node.js
+Previously install Node.js
 
 Preconditions:
 
@@ -14,7 +14,14 @@ Open a command window and run:
     
     grunt start
 
-Then you can execute tests using:
+Then you can execute tests(by default):
 
     grunt test 
+    
+Or you can execute tests grouped by tags(all, edit, search, remove):
 
+    grunt test:search
+
+Or you can execute tests on different platforms(desktop or tablet):
+
+    grunt test --platform=tablet
