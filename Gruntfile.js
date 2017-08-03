@@ -38,24 +38,24 @@ module.exports = function(grunt) {
                     }
                 }
             },
-            remove: {
+            catalog: {
                 options: {
                     configFile: 'protractor.conf.js',
                     args: {
                         seleniumAddress: 'http://localhost:4444/wd/hub',
                         cucumberOpts: {
-                            tags: ['@remove']
+                            tags: ['@catalog']
                         }
                     }
                 }
             },
-            edit: {
+            bag: {
                 options: {
                     configFile: 'protractor.conf.js',
                     args: {
                         seleniumAddress: 'http://localhost:4444/wd/hub',
                         cucumberOpts: {
-                            tags: ['@edit']
+                            tags: ['@bag']
                         }
                     }
                 }

@@ -27,11 +27,11 @@ exports.config = {
     cucumberOpts: {
         require: [
             'step_definitions/*.js',
-            './env.js',
-            './hooks.js'
+            'support/env.js',
+            'support/hooks.js'
         ],
         format: 'pretty',
-        tags: ['@search, @edit, @remove', '@remove','search','edit']
+        tags: []
     },
 
     onPrepare: function () {

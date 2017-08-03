@@ -11,7 +11,7 @@ Feature: Find and work with some goods
       Then I click "topRated" on "catalog"
       Then I see result "Women's Elbow Sleeve Ponte Sheath Dress" at "1"
 
-      @edit
+      @edit @catalog @bag
   Scenario: Find goods using catalog, filtering them, add to bag and update
       Then I choose "women"
       Then I should see a title "Women's Clothing, Shoes, Accessories | Lands' End"
@@ -27,7 +27,7 @@ Feature: Find and work with some goods
       Then I update item
       Then I check "size" "10"
 
-      @remove
+      @remove @catalog @bag
   Scenario: Find goods using catalog, filtering them, add to bag and remove
       Then I choose "men"
       Then I should see a title "Men's Clothing, Shoes & Accessories | Lands' End"
