@@ -1,6 +1,6 @@
 # module6_ht
 
-Preconditions: Node.js
+Previously install Node.js
 
 Preconditions:
 
